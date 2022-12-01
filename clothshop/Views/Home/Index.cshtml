@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>This is a online cloth shop.</p>
+    @if (ViewData["Campaign"] == "Yes")
+    {
+        <p>We offer 50% off for all items </p>
+        <p>
+            <img src="../image/clothDiscount.jfif" alt="Photo" />
+        </p>
+    }
+  
+</div>
